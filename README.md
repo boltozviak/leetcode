@@ -1,12 +1,11 @@
 # leetcode
-
+Двацаточка для разгона -> потом будут добавления и правочки
 ## Solutions
-
-Python
+Пока что только на Питухоне -> в перспективе С++/Go/Rust
 
 | # | Title | Solution | Idea |
 |---|-------|----------|------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python](https://github.com/boltozviak/leetcode/blob/main/python/001_Two_Sum.py)
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | [Python](https://github.com/boltozviak/leetcode/blob/main/python/001_Two_Sum.py) | 1)Словарик O(n) и память O(?)<br>2)Сортируем и двумя указателями O(n log n)(из-за sort)
 | 15 | [3Sum](https://leetcode.com/problems/3sum/description/) | [Python](https://github.com/boltozviak/leetcode/blob/main/python/15_3Sum.py)
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [Python](https://github.com/boltozviak/leetcode/blob/main/python/026_Remove_Duplicates_from_Sorted_Array.py)
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/description/) | [Python](https://github.com/boltozviak/leetcode/blob/main/python/027_Remove_Element.py)
