@@ -1,22 +1,22 @@
 class Solution:
     def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
         result = [0] * (m + n)
-        i, j, k = 0, 0, 0
-        while i < m and j < n:
-            if nums1[i] < nums2[j]:
-                result[k] = nums1[i]
-                i += 1
+        first, second, third = 0, 0, 0
+        while first < m and second < n:
+            if nums1[first] < nums2[second]:
+                result[third] = nums1[first]
+                first += 1
             else:
-                result[k] = nums2[j]
-                j += 1
-            k += 1
-        while i < m:
-            result[k] = nums1[i]
-            i += 1
-            k += 1
-        while j < n:
-            result[k] = nums2[j]
-            j += 1
-            k += 1
-        for i in range(m + n):
-            nums1[i] = result[i]
+                result[third] = nums2[second]
+                second += 1
+            third += 1
+        while first < m:
+            result[third] = nums1[first]
+            first += 1
+            third += 1
+        while second < n:
+            result[third] = nums2[second]
+            second += 1
+            third += 1
+        for first in range(m + n):
+            nums1[first] = result[first]

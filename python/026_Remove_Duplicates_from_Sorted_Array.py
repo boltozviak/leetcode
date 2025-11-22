@@ -1,8 +1,7 @@
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
         '''
-        O(n)
-        
+        идея, как в 27
         '''
         k = 1
         prev_value = nums[0]
